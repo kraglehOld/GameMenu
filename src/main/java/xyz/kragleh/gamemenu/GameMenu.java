@@ -4,8 +4,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 import xyz.kragleh.gamemenu.Commands.ItemReload;
 import xyz.kragleh.gamemenu.Events.*;
 
-/** Great job! If your not kragleh and you can see the code! Want free nitro? Dm me for one! Discord: kragleh#4433 **/
-
 public final class GameMenu extends JavaPlugin {
 
     @Override

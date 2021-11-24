@@ -13,8 +13,6 @@ import xyz.kragleh.gamemenu.GameMenu;
 import java.util.ArrayList;
 import java.util.List;
 
-/** Great job! If your not kragleh and you can see the code! Want free nitro? Dm me for one! Discord: kragleh#4433 **/
-
 public class onPlayerRespawn implements Listener {
 
     Plugin plugin = GameMenu.getPlugin(GameMenu.class);

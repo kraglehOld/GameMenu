@@ -17,7 +17,7 @@ public class onItemClick implements Listener {
     public void onItemClick(PlayerInteractEvent e) {
         Player player = e.getPlayer();
 
-        if(e.getItem() != null && e.getItem().getType() == Material.NETHER_STAR) {
+        if(e.getItem() != null && e.getItem().hasItemMeta() && e.getItem().getItemMeta().hasLore() && e.getItem().getItemMeta().getDisplayName() == plugin.getConfig().getString("Item Name") && e.getItem().getType() == Material.NETHER_STAR) {
             if(e.getAction() == Action.RIGHT_CLICK_AIR || e.getAction() == Action.RIGHT_CLICK_BLOCK || e.getAction() == Action.LEFT_CLICK_AIR || e.getAction() == Action.LEFT_CLICK_BLOCK) {
                 player.chat(plugin.getConfig().getString("Item Command"));
             }

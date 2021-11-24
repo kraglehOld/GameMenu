@@ -5,3 +5,7 @@ load: STARTUP
 depend: [ DeluxeMenus ]
 authors: [ kragleh ]
 description: Plugin used to make a clickable item in players inventory that executes a command to a menu.
+commands:
+  itemreload:
+    usage: Reload plugin config.
+    aliases: ir

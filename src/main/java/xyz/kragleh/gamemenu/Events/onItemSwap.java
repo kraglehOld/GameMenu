@@ -12,7 +12,6 @@ public class onItemSwap implements Listener {
 
     @EventHandler
     public void onPlayerSwapItem(PlayerSwapHandItemsEvent e) {
-
         if (e.getOffHandItem().hasItemMeta() && e.getOffHandItem().getItemMeta().hasLore() && e.getOffHandItem().getItemMeta().getDisplayName() == plugin.getConfig().getString("Item Name")) {
             e.setCancelled(true);
             System.out.println("Player swap works!");
