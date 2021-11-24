@@ -1,0 +1,15 @@
+# GameMenu configuration!
+# - Plugin made by: kragleh
+# - Plugin support: https://invite.kragleh.xyz
+# Plugin not working?
+# Make sure you have DeluxeMenus installed! ( https://www.spigotmc.org/resources/deluxemenus.11734/ )
+
+# Changes the Item Name
+Item Name: §6* §eGame Menu §6*
+
+# Chances the Item Lore
+Item Lore: §7Item Lore
+
+# Changes the Executed Command
+# You need to add / before the command!
+Item Command: /menu
